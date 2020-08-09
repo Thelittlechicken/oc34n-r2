@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+<<<<<<< HEAD
+VisualStudioVersion = 16.0.29001.49
+=======
+VisualStudioVersion = 16.0.30309.148
+>>>>>>> 3be20b6b4b748140a3a2bdb6660675bb65a28d7d
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oc34n OneClickTool", "Oc34n OneClickTool\Oc34n OneClickTool.csproj", "{2A86C7C2-3153-40AC-A264-405CCA3623BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A86C7C2-3153-40AC-A264-405CCA3623BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A86C7C2-3153-40AC-A264-405CCA3623BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A86C7C2-3153-40AC-A264-405CCA3623BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A86C7C2-3153-40AC-A264-405CCA3623BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+<<<<<<< HEAD
+		SolutionGuid = {177AD359-B485-4AB1-A9CC-D8A8A4266BF6}
+=======
+		SolutionGuid = {3129A426-A31D-43D0-A18A-792E1C3B7E63}
+>>>>>>> 3be20b6b4b748140a3a2bdb6660675bb65a28d7d
+	EndGlobalSection
+EndGlobal
