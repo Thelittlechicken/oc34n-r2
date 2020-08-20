@@ -1,7 +1,10 @@
 # oc34n-r2
+## THIS TOOL IS LICENSED UNDER GPLv3, WE WILL DMCA YOU IF YOU USE IT WITHOUT FOLLOWING THE CONDITIONS OF GPLv3.
+
 New and refined tool for Factory Activation. Made with Oc34n's activation server in mind (https://oc34n.pw)
 
-A GUI tool written in C# using .NET Framework with the purpose of activating the device with MobileDevice
+Written in C# using .NET Framework with the purpose of activating the device with MobileDevice
+
 # Credits:
 
 BlueDog (AKA B1on1cDog or TheLittleChicken): Author of the tool, most of the code and functions used.
