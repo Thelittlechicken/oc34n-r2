@@ -20,4 +20,6 @@ Quamotion: libimobiledevice
 
 Sam Bingner: UIKit Tools
 
+SoNick14: Dylibs used to achieve untethered(for now) and to get notifications, facetime/imessage
+
 Some other people :)
