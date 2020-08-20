@@ -22,4 +22,6 @@ Sam Bingner: UIKit Tools
 
 SoNick14: Dylibs used to achieve untethered(for now) and to get notifications, facetime/imessage
 
+Minacriss: Minaeraser binary (named restore in the tool) for erasing the device. Not necessary but nice to have.
+
 Some other people :)
