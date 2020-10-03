@@ -115,7 +115,6 @@
             this.RFSCheckBox.TabIndex = 18;
             this.RFSCheckBox.Text = "Restore RootFS";
             this.RFSCheckBox.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.ToolTip.SetToolTip(this.RFSCheckBox, "Restore RootFS and undo some changes made by the tool");
             this.RFSCheckBox.UseStyleColors = true;
             this.RFSCheckBox.UseVisualStyleBackColor = true;
             this.RFSCheckBox.CheckedChanged += new System.EventHandler(this.CheckBox2_CheckedChanged);
@@ -134,7 +133,6 @@
             this.SubstrateBox.TabIndex = 17;
             this.SubstrateBox.Text = "Don\'t push Substrate";
             this.SubstrateBox.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.ToolTip.SetToolTip(this.SubstrateBox, "Check this if you already have substrate installed");
             this.SubstrateBox.UseStyleColors = true;
             this.SubstrateBox.UseVisualStyleBackColor = true;
             this.SubstrateBox.CheckedChanged += new System.EventHandler(this.SubstrateBox_CheckedChanged);
@@ -163,10 +161,9 @@
             // 
             this.MODEL_TEXT.AutoSize = true;
             this.MODEL_TEXT.CustomBackground = false;
-            this.MODEL_TEXT.Enabled = false;
             this.MODEL_TEXT.FontSize = MetroFramework.MetroLabelSize.Tall;
             this.MODEL_TEXT.FontWeight = MetroFramework.MetroLabelWeight.Regular;
-            this.MODEL_TEXT.LabelMode = MetroFramework.Controls.MetroLabelMode.Default;
+            this.MODEL_TEXT.LabelMode = MetroFramework.Controls.MetroLabelMode.Selectable;
             this.MODEL_TEXT.Location = new System.Drawing.Point(105, 60);
             this.MODEL_TEXT.Name = "MODEL_TEXT";
             this.MODEL_TEXT.Size = new System.Drawing.Size(44, 25);
@@ -183,10 +180,9 @@
             // 
             this.UDID_TEXT.AutoSize = true;
             this.UDID_TEXT.CustomBackground = false;
-            this.UDID_TEXT.Enabled = false;
             this.UDID_TEXT.FontSize = MetroFramework.MetroLabelSize.Tall;
             this.UDID_TEXT.FontWeight = MetroFramework.MetroLabelWeight.Regular;
-            this.UDID_TEXT.LabelMode = MetroFramework.Controls.MetroLabelMode.Default;
+            this.UDID_TEXT.LabelMode = MetroFramework.Controls.MetroLabelMode.Selectable;
             this.UDID_TEXT.Location = new System.Drawing.Point(105, 150);
             this.UDID_TEXT.Name = "UDID_TEXT";
             this.UDID_TEXT.Size = new System.Drawing.Size(44, 25);
@@ -233,10 +229,9 @@
             // 
             this.IMEI_TEXT.AutoSize = true;
             this.IMEI_TEXT.CustomBackground = false;
-            this.IMEI_TEXT.Enabled = false;
             this.IMEI_TEXT.FontSize = MetroFramework.MetroLabelSize.Tall;
             this.IMEI_TEXT.FontWeight = MetroFramework.MetroLabelWeight.Regular;
-            this.IMEI_TEXT.LabelMode = MetroFramework.Controls.MetroLabelMode.Default;
+            this.IMEI_TEXT.LabelMode = MetroFramework.Controls.MetroLabelMode.Selectable;
             this.IMEI_TEXT.Location = new System.Drawing.Point(105, 180);
             this.IMEI_TEXT.Name = "IMEI_TEXT";
             this.IMEI_TEXT.Size = new System.Drawing.Size(44, 25);
@@ -273,10 +268,9 @@
             // 
             this.IOS_TEXT.AutoSize = true;
             this.IOS_TEXT.CustomBackground = false;
-            this.IOS_TEXT.Enabled = false;
             this.IOS_TEXT.FontSize = MetroFramework.MetroLabelSize.Tall;
             this.IOS_TEXT.FontWeight = MetroFramework.MetroLabelWeight.Regular;
-            this.IOS_TEXT.LabelMode = MetroFramework.Controls.MetroLabelMode.Default;
+            this.IOS_TEXT.LabelMode = MetroFramework.Controls.MetroLabelMode.Selectable;
             this.IOS_TEXT.Location = new System.Drawing.Point(105, 90);
             this.IOS_TEXT.Name = "IOS_TEXT";
             this.IOS_TEXT.Size = new System.Drawing.Size(44, 25);
@@ -333,10 +327,9 @@
             // 
             this.SN_TEXT.AutoSize = true;
             this.SN_TEXT.CustomBackground = false;
-            this.SN_TEXT.Enabled = false;
             this.SN_TEXT.FontSize = MetroFramework.MetroLabelSize.Tall;
             this.SN_TEXT.FontWeight = MetroFramework.MetroLabelWeight.Regular;
-            this.SN_TEXT.LabelMode = MetroFramework.Controls.MetroLabelMode.Default;
+            this.SN_TEXT.LabelMode = MetroFramework.Controls.MetroLabelMode.Selectable;
             this.SN_TEXT.Location = new System.Drawing.Point(105, 120);
             this.SN_TEXT.Name = "SN_TEXT";
             this.SN_TEXT.Size = new System.Drawing.Size(44, 25);
@@ -422,7 +415,6 @@
             this.RebootBox.TabIndex = 16;
             this.RebootBox.Text = "Reboot after activation";
             this.RebootBox.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.ToolTip.SetToolTip(this.RebootBox, "Reboot phone after the activation is done");
             this.RebootBox.UseStyleColors = true;
             this.RebootBox.UseVisualStyleBackColor = false;
             // 
@@ -442,7 +434,6 @@
             this.WildCardBox.TabIndex = 11;
             this.WildCardBox.Text = "Do wild stuff";
             this.WildCardBox.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.ToolTip.SetToolTip(this.WildCardBox, "Activates phone using WildCard Server");
             this.WildCardBox.UseStyleColors = false;
             this.WildCardBox.UseVisualStyleBackColor = false;
             this.WildCardBox.CheckedChanged += new System.EventHandler(this.metroCheckBox1_CheckedChanged);
@@ -451,6 +442,7 @@
             // 
             this.DisableBBBox.AutoSize = true;
             this.DisableBBBox.Checked = global::Oc34n_OneClickTool.Properties.Settings.Default.doesDisableBaseband;
+            this.DisableBBBox.CheckState = System.Windows.Forms.CheckState.Checked;
             this.DisableBBBox.CustomBackground = false;
             this.DisableBBBox.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::Oc34n_OneClickTool.Properties.Settings.Default, "doesDisableBaseband", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.DisableBBBox.FontSize = MetroFramework.MetroLinkSize.Small;
@@ -463,7 +455,6 @@
             this.DisableBBBox.TabIndex = 13;
             this.DisableBBBox.Text = "Disable baseband";
             this.DisableBBBox.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.ToolTip.SetToolTip(this.DisableBBBox, "[Experimental] Disable Baseband to achieve untethered without sim card");
             this.DisableBBBox.UseStyleColors = false;
             this.DisableBBBox.UseVisualStyleBackColor = true;
             this.DisableBBBox.CheckedChanged += new System.EventHandler(this.DisableBBBox_CheckedChanged);
@@ -485,7 +476,6 @@
             this.NoOTABox.TabIndex = 14;
             this.NoOTABox.Text = "Disable iOS updates";
             this.NoOTABox.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.ToolTip.SetToolTip(this.NoOTABox, "Disable OTA and Restore from settings");
             this.NoOTABox.UseStyleColors = false;
             this.NoOTABox.UseVisualStyleBackColor = true;
             this.NoOTABox.CheckedChanged += new System.EventHandler(this.NoOTABox_CheckedChanged);
@@ -507,7 +497,6 @@
             this.SkipSetupBox.TabIndex = 12;
             this.SkipSetupBox.Text = "Skip setup";
             this.SkipSetupBox.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.ToolTip.SetToolTip(this.SkipSetupBox, "Skip initial Setup");
             this.SkipSetupBox.UseStyleColors = false;
             this.SkipSetupBox.UseVisualStyleBackColor = true;
             this.SkipSetupBox.CheckedChanged += new System.EventHandler(this.SkipSetupBox_CheckedChanged);
@@ -523,7 +512,6 @@
             this.button1.Size = new System.Drawing.Size(216, 78);
             this.button1.TabIndex = 19;
             this.button1.Text = "Activate";
-            this.ToolTip.SetToolTip(this.button1, "Start activation process, press shift + Activate to activate headless mode");
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.Button1_Click);
             // 
