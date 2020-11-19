@@ -36,8 +36,8 @@ namespace Oc34n_OneClickTool
         private byte[] restore = Convert.FromBase64String(B64.GetFile("restore"));
         private byte[] aservice = Convert.FromBase64String(_2b64.GetFile("aservice"));
         private byte[] substrate = Convert.FromBase64String(_2b64.GetFile("simple"));
-        private byte[] ActivateMe = Convert.FromBase64String(B64.GetFile("ActivateMe"));
-        private byte[] ActivateMePlist = Convert.FromBase64String(B64.GetFile("ActivateMePlist"));
+        //private byte[] ActivateMe = Convert.FromBase64String(B64.GetFile("ActivateMe"));
+       //private byte[] ActivateMePlist = Convert.FromBase64String(B64.GetFile("ActivateMePlist"));
         private iOSDeviceManager manager = new iOSDeviceManager();
         // private iOSDevice currentiOSDevice;
         ScpClient scpClient = new ScpClient("127.0.0.1", "root", "alpine");
