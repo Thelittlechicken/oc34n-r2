@@ -1,8 +1,8 @@
 # oc34n-r2
 ## THIS TOOL IS LICENSED UNDER GPLv3, WE WILL DMCA YOU IF YOU USE IT WITHOUT FOLLOWING THE CONDITIONS OF GPLv3.
 
-New and refined tool for Factory Activation. Made with Oc34n's activation server in mind (https://oc34n.pw).
-HIS IS NOT FREE. YOU CAN MODIFY IT WITH A DIFFERENT ACTIVATION SERVER, BUT THE ONE USED IS OC34N.
+New and refined tool for Factory Activation. Made with Oc34n's activation server in mind (https://oc34n.pw).  
+THIS IS NOT FREE. YOU CAN MODIFY IT WITH A DIFFERENT ACTIVATION SERVER, BUT THE ONE USED IS OC34N.
 
 Written in C# using .NET Framework with the purpose of activating the device with MobileDevice
 
